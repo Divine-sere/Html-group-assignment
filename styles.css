@@ -234,4 +234,75 @@ h1 {
     transform: translateY(-2px);
     
 }
+.footer {
+    background-color: #0d2826;
+    color: #ccc;
+    text-align: center;
+    padding: 40px 20px;
+    position: relative;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer .logo {
+    font-size: 28px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .footer .contact-info p {
+    margin: 8px 0;
+    font-size: 16px;
+  }
+  
+  .footer .contact-info i {
+    margin-right: 8px;
+  }
+  
+  .footer-bottom {
+    margin-top: 30px;
+    font-size: 14px;
+  }
+  
+  .footer-bottom a {
+    color: #3ecf8e;
+    text-decoration: none;
+  }
+  
+  .footer-bottom a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-icons {
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+    color: #ccc;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #3ecf8e;
+  }
+  
+  .scroll-top {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    background-color: #3ecf8e;
+    color: #fff;
+    padding: 12px;
+    border-radius: 50%;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s;
+  }
+  
+  .scroll-top:hover {
+    background-color: #35b87d;
+  }
+  
 

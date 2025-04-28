@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <span>UI Portfolio</span>
+        </div>
+        <nav class="nav-center">
+            <a href="#" class="navlinks">Home</a>
+            <a href="#" class="navlinks">About</a>
+            <a href="#" class="navlinks">Services</a>
+            <a href="#" class="navlinks">Blog</a>
+            <a href="#" class="navlinks">Contact</a>
+        </nav>
+        <div class="nav-right">
+            <button class="hire-me">Hire Me</button>
+            <i class="bx bx-search icon"></i>
+            <i class="bx bx-moon icon"></i>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>I'm John Watson</h1>
+            <div class="subtitle">
+                <span id="typing-effect"></span>
+            </div>
+            <p><b>I love Graphic Design and Photography and have been working on my portfolio since 2016.
+                <br>I can give your business a new creative start right away!</b></p>
+            <div class="buttons">
+                <a href="#" class="btn btn-primary">Hire Me</a>
+                <a href="#" class="btn btn-secondary">My Portfolio</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="manp.png" alt="Hero Image">
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am passionate about crafting beautiful and functional user experiences. With years of experience in UI/UX design and front-end development, I deliver high-quality work on time.</p>
+        </div>
+        <div class="contact-card">
+            <div class="info">
+                <p><strong>Name:</strong> John Watson</p>
+                <p><strong>Email:</strong> example@mail.com</p>
+                <p><strong>From:</strong> London, UK</p>
+                <p><strong>Phone:</strong> +21 234 567 8901</p>
+            </div>
+            <div class="socials">
+                <p>Follow me on</p>
+                <div class="icons">
+                    <a href="#"><i class="bx bxl-facebook"></i></a>
+                    <a href="#"><i class="bx bxl-twitter"></i></a>
+                    <a href="#"><i class="bx bxl-instagram"></i></a>
+                </div>
+            </div>
+            <div class="buttons">
+                <button class="hire">Hire me</button>
+                <button class="download">Download CV</button>
+            </div>
+        </div>
+    </section>
+    <section id="services" class="services">
+        <div class="container">
+          <h2>Services</h2>
+          <div class="services-grid">
+            <div class="service-item">
+              <i class="fas fa-paint-brush"></i>
+              <h3>UI/UX Design</h3>
+              <p>Beautiful, intuitive interfaces tailored for users.</p>
+            </div>
+            <div class="service-item">
+              <i class="fas fa-code"></i>
+              <h3>Web Development</h3>
+              <p>Responsive, fast, and modern websites and apps.</p>
+            </div>
+            <div class="service-item">
+              <i class="fas fa-mobile-alt"></i>
+              <h3>Mobile Design</h3>
+              <p>Designing seamless experiences for mobile platforms.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <section id="skills">
+        <div class="skills-content">
+            <h2>My Skills</h2>
+            <h1>My Featured Skills</h1>
+            <p>I specialize in Branding and Strategy, and am passionate about creating awesome portfolio work. 
+                I'm always ready to impress the audience with my Creativity.</p>
+            <img src="images/about1.jpg" alt="Books and design materials" class="skills-img">
+            <ul class="skills-list">
+                <li>
+                    <span>UI/UX Design</span>
+                    <div class="progress-container">
+                        <div class="progress-bar" style="width: 90%"></div>
+                    </div>
+                </li>
+                <li>
+                    <span>Ideas & Technology</span>
+                    <div class="progress-container">
+                        <div class="progress-bar" style="width: 85%"></div>
+                    </div>
+                </li>
+                <li>
+                    <span>Branding Design</span>
+                    <div class="progress-container">
+                        <div class="progress-bar" style="width: 95%"></div>
+                    </div>
+                </li>
+                <li>
+                    <span>Responsive Web Design</span>
+                    <div class="progress-container">
+                        <div class="progress-bar" style="width: 88%"></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+          <h2>Portfolio</h2>
+          <div class="portfolio-grid">
+            <div class="portfolio-item"><img src="https://media.istockphoto.com/id/2161148581/vector/vector-blue-digital-code-rain-in-a-matrix-inspired-futuristic-style.jpg?s=1024x1024&w=is&k=20&c=HWMpsKrN3MuuFQblrWdOhJJeco7afMISSybR8t_HCWU=" alt="pro 1" style="width: 170px;height: auto; ;"></div>
+            <div class="portfolio-item"><img src="https://media.istockphoto.com/id/2149530993/photo/digital-human-head-concept-for-ai-metaverse-and-facial-recognition-technology.jpg?s=1024x1024&w=is&k=20&c=Ob0ACggwWuFDFRgIc-SM5bLWjNbIyoREeulmLN8dhLs=" alt="pro 2"style=width:170px; height="auto" ></div>
+            <div class="portfolio-item"><img src="https://media.istockphoto.com/id/2161506354/photo/young-adult-asian-male-female-software-developer-coding-program-on-desktop-computer-man-woman.jpg?s=1024x1024&w=is&k=20&c=ZKi4B5X8fBovRh3fonVrEgriV6Qk-EJzqL1F4pGTDHQ=" alt="pro 3" style="width: 170px; height: auto;"></div>
+            <div class="portfolio-item"><img src="https://media.istockphoto.com/id/1979289151/photo/data-analysis-science-and-big-data-with-ai-technology-analyst-or-scientist-uses-a-computer.jpg?s=2048x2048&w=is&k=20&c=jkSM7Pi0XzQBxhGZUxGC-Y12ZhMKfaeY0Uycs18iTLk=" alt="pro 4" style="width: 170px; height: auto;"></div>
+          </div>
+        </div>
+      </section>
+
+    <footer class="footer">
+        <div class="logo">UI Portfolio</div>
+        <div class="social-icons">
+            <a href="#"><i class="bx bxl-facebook"></i></a>
+            <a href="#"><i class="bx bxl-twitter"></i></a>
+            <a href="#"><i class="bx bxl-instagram"></i></a>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 John Watson. All rights reserved. <a href="#">Privacy Policy</a></p>
+        </div>
+        <a href="#" class="scroll-top"><i class="bx bx-up-arrow-alt"></i></a>
+    </footer>
+</body>
+</html>
+
+
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+  transition: background 0.3s, color 0.3s;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #092635;
+  padding: 10px 40px;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.nav-center {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.navlinks {
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 8px 10px;
+  transition: color 0.3s ease;
+}
+
+.navlinks:hover {
+  color: #00b894;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.hire-me {
+  background-color: #00b894;
+  border: none;
+  padding: 8px 8px;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  margin-right: 50px;
+}
+
+.hire-me:hover {
+  background-color: #019270;
+}
+
+.icon {
+  cursor: pointer;
+  font-size: 20px;
+  color: whitesmoke;
+  transition: color 0.3s ease;
+  margin: 12px 5px;
+  padding: 5px;
+}
+
+.icon:hover {
+  color: #00b894;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url('https://images.pexels.com/photos/7683594/pexels-photo-7683594.jpeg');
+  background-size: cover;
+  background-position: center;
+  padding: 80px 40px;
+  color: white;
+  position: relative;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(9, 38, 53, 0.8);
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 12px 25px;
+  border-radius: 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #00b894;
+  color: white;
+  border: none;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+/* About Section */
+.about {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.about p {
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: left;
+}
+
+/* Contact Card */
+.contact-card {
+  background: white;
+  padding: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.info p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.socials p {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.icons {
+  margin-top: 10px;
+}
+
+.icons a {
+  color: #333;
+  font-size: 20px;
+  margin: 0 8px;
+  transition: color 0.3s ease;
+}
+
+.icons a:hover {
+  color: #00b894;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  border: none;
+  padding: 10px 20px;
+  margin: 10px 5px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.hire {
+  background-color: #008060;
+  color: white;
+}
+
+.download {
+  background-color: #00c853;
+  color: white;
+}
+.services-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.service-item :hover{
+  background: #8b8c8e;
+  padding: 30px;
+  border-radius: 10px;
+  width: 250px;
+}
+
+.service-item i {
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: #3ecf8e;
+}
+
+
+
+/* Skills Section */
+#skills {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "image subtitle"
+    "image title"
+    "image description"
+    "image skills";
+  gap: 30px;
+}
+
+#skills h2 {
+  grid-area: subtitle;
+  color: rgb(1, 123, 101);
+  font-size: 1.2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+#skills h1 {
+  grid-area: title;
+  font-size: 2.5em;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+#skills p {
+  grid-area: description;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.skills-img {
+  grid-area: image;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.skills-list {
+  grid-area: skills;
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.skills-list li {
+  margin-bottom: 25px;
+}
+
+.progress-container {
+  background: #ecf0f1;
+  height: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.progress-bar {
+  background: rgb(1, 123, 101);
+  height: 100%;
+  border-radius: 5px;
+  transition: width 0.5s ease-in-out;
+}
+.portfolio-grid {
+  display: flex; /* Arrange items horizontally */
+  flex-wrap: wrap; /* Allow wrapping if items exceed the container width */
+  gap: 20px; /* Add spacing between items */
+  justify-content: center; /* Center the items horizontally */
+  margin-top: 40px;
+}
+
+.portfolio-item {
+  background: #0d2826;
+  color: white;
+  padding: 20px; /* Reduce padding for smaller size */
+  border-radius: 10px;
+  text-align: center; /* Center-align text inside the items */
+  width: 200px; /* Set a fixed width for each item */
+  height: 150px; /* Set a fixed height for each item */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  transition: transform 0.3s ease; /* Add a hover effect */
+}
+
+.portfolio-item:hover {
+  transform: translateY(-5px); /* Slight lift on hover */
+}
+/* Footer */
+.footer {
+  background-color: #0d2826;
+  color: #ccc;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.footer .logo {
+  font-size: 28px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.footer-bottom {
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.footer-bottom a {
+  color: #3ecf8e;
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: #ccc;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #3ecf8e;
+}
+
+.scroll-top {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  background-color: #3ecf8e;
+  color: #fff;
+  padding: 12px;
+  border-radius: 50%;
+  font-size: 20px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+.scroll-top:hover {
+  background-color: #35b87d;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+  }
+
+  .nav-center {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .navlinks {
+    padding: 10px 0;
+  }
+
+  .nav-right {
+    margin-top: 10px;
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-image img {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  #skills {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "subtitle"
+      "title"
+      "image"
+      "description"
+      "skills";
+  }
+}
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+  transition: background 0.3s, color 0.3s;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #092635;
+  padding: 10px 40px;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-center {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.navlinks {
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 8px 10px;
+  transition: color 0.3s ease;
+}
+
+.navlinks:hover {
+  color: #00b894;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.hire-me {
+  background-color: #00b894;
+  border: none;
+  padding: 8px 8px;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.hire-me:hover {
+  background-color: #019270;
+}
+
+.icon {
+  cursor: pointer;
+  font-size: 20px;
+  color: whitesmoke;
+  transition: color 0.3s ease;
+}
+
+.icon:hover {
+  color: #00b894;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url('https://images.pexels.com/photos/7683594/pexels-photo-7683594.jpeg');
+  background-size: cover;
+  background-position: center;
+  padding: 80px 40px;
+  color: white;
+  position: relative;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(9, 38, 53, 0.8);
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 12px 25px;
+  border-radius: 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #00b894;
+  color: white;
+  border: none;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+/* About Section */
+.about {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.about p {
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: left;
+}
+
+/* Contact Card */
+.contact-card {
+  background: white;
+  padding: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.info p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.socials p {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.icons {
+  margin-top: 10px;
+}
+
+.icons a {
+  color: #333;
+  font-size: 20px;
+  margin: 0 8px;
+  transition: color 0.3s ease;
+}
+
+.icons a:hover {
+  color: #00b894;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  border: none;
+  padding: 10px 20px;
+  margin: 10px 5px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.hire {
+  background-color: #008060;
+  color: white;
+}
+
+.download {
+  background-color: #00c853;
+  color: white;
+}
+
+/* Services Section */
+.services-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.service-item {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.service-item:hover {
+  background-color: #e0e0e0;
+}
+
+.service-item i {
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: #3ecf8e;
+}
+
+/* Skills Section */
+#skills {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.skills-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.skills-list li {
+  margin-bottom: 25px;
+}
+
+.progress-container {
+  background: #ecf0f1;
+  height: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.progress-bar {
+  background: rgb(1, 123, 101);
+  height: 100%;
+  border-radius: 5px;
+  transition: width 0.5s ease-in-out;
+}
+
+/* Portfolio Section */
+.portfolio-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.portfolio-item img {
+  width: 170px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.portfolio-item img:hover {
+  transform: scale(1.05);
+}
+
+/* Footer */
+.footer {
+  background-color: #0d2826;
+  color: #ccc;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.footer .logo {
+  font-size: 28px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.footer-bottom {
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.footer-bottom a {
+  color: #3ecf8e;
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+
+/* Phones (max-width: 600px) */
+@media (max-width: 600px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-image img {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .services-grid {
+    flex-direction: column;
+  }
+
+  .portfolio-item img {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+/* Tablets (max-width: 900px) */
+@media (max-width: 900px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .services-grid {
+    flex-wrap: wrap;
+  }
+
+  .portfolio-item img {
+    width: 150px;
+  }
+}
